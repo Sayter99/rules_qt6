@@ -1,3 +1,5 @@
+build --noincompatible_disallow_empty_glob
+
 # GCC
 build:gccd --cxxopt=-std=c++20
 build:gccd --cxxopt=-Wall

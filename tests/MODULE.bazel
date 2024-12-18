@@ -16,3 +16,5 @@ register_toolchains(
     "@rules_qt//tools:all",
     dev_dependency = True,
 )
+
+bazel_dep(name = "platforms", version = "0.0.10")
